@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
+
+.page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social-button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.social-button:hover {
+    opacity: 0.9;
+}
+
+.social-button.github {
+    background-color: #24292e;
+    color: white;
+}
+
+.social-button.google {
+    background-color: #4285f4;
+    color: white;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login-button {
+    padding: 0.75rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.text-button {
+    background: none;
+    border: none;
+    color: #4285f4;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.text-button:hover {
+    text-decoration: underline;
+}
+
+/* Signup Page Styles */
+.signup-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.signup-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.form-group h2 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.terms {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-button,
+.signup-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-button {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.cancel-button:hover {
+    background-color: #e1e1e1;
+}
+
+.signup-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.signup-button:hover {
+    background-color: #45a049;
+}

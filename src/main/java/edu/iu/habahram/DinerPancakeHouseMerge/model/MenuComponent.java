@@ -34,4 +34,6 @@ public abstract class MenuComponent {
     public ArrayList<MenuItem> getItems() {
         throw new UnsupportedOperationException();
     }
+
+
 }
